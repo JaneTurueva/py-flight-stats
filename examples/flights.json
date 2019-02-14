@@ -1,0 +1,722 @@
+{
+  "request": {
+    "airport": {
+      "requestedCode": "PDX",
+      "fsCode": "PDX"
+    },
+    "date": {
+      "year": "2014",
+      "month": "2",
+      "day": "3",
+      "interpreted": "2014-02-03"
+    },
+    "hourOfDay": {
+      "requested": "10",
+      "interpreted": 10
+    },
+    "numHours": {
+      "requested": "1",
+      "interpreted": 1
+    },
+    "utc": {
+      "interpreted": false
+    },
+    "codeType": {},
+    "maxFlights": {
+      "requested": "10",
+      "interpreted": 10
+    },
+    "extendedOptions": {
+      "requested": ""
+    },
+    "url": "http://fhv2svc01.dev.pdx.office:8080/flex/flightstatus/rest/v2/json/airport/status/PDX/dep/2014/2/3/10"
+  },
+  "appendix": {
+    "airlines": [
+      {
+        "fs": "AS",
+        "iata": "AS",
+        "icao": "ASA",
+        "name": "Alaska Airlines",
+        "phoneNumber": "1-800-252-7522",
+        "active": true
+      },
+      {
+        "fs": "F9",
+        "iata": "F9",
+        "icao": "FFT",
+        "name": "Frontier Airlines",
+        "active": true
+      },
+      {
+        "fs": "OO",
+        "iata": "OO",
+        "icao": "SKW",
+        "name": "SkyWest Airlines",
+        "active": true
+      },
+      {
+        "fs": "WN",
+        "iata": "WN",
+        "icao": "SWA",
+        "name": "Southwest Airlines",
+        "phoneNumber": "1-800-435-9792",
+        "active": true
+      },
+      {
+        "fs": "QX",
+        "iata": "QX",
+        "icao": "QXE",
+        "name": "Horizon Air",
+        "active": true
+      }
+    ],
+    "airports": [
+      {
+        "fs": "LAX",
+        "iata": "LAX",
+        "icao": "KLAX",
+        "faa": "LAX",
+        "name": "Los Angeles International Airport",
+        "street1": "One World Way",
+        "street2": "",
+        "city": "Los Angeles",
+        "cityCode": "LAX",
+        "stateCode": "CA",
+        "postalCode": "90045-5803",
+        "countryCode": "US",
+        "countryName": "United States",
+        "regionName": "North America",
+        "timeZoneRegionName": "America/Los_Angeles",
+        "weatherZone": "CAZ041",
+        "localTime": "2014-02-03T10:10:28.748",
+        "utcOffsetHours": -8.0,
+        "latitude": 33.943399,
+        "longitude": -118.408279,
+        "elevationFeet": 126,
+        "classification": 1,
+        "active": true,
+        "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LAX?codeType=fs",
+        "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LAX?codeType=fs"
+      },
+      {
+        "fs": "SFO",
+        "iata": "SFO",
+        "icao": "KSFO",
+        "faa": "SFO",
+        "name": "San Francisco International Airport",
+        "city": "San Francisco",
+        "cityCode": "SFO",
+        "stateCode": "CA",
+        "postalCode": "94128",
+        "countryCode": "US",
+        "countryName": "United States",
+        "regionName": "North America",
+        "timeZoneRegionName": "America/Los_Angeles",
+        "weatherZone": "CAZ508",
+        "localTime": "2014-02-03T10:10:28.760",
+        "utcOffsetHours": -8.0,
+        "latitude": 37.615215,
+        "longitude": -122.389881,
+        "elevationFeet": 11,
+        "classification": 1,
+        "active": true,
+        "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SFO?codeType=fs",
+        "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SFO?codeType=fs"
+      },
+      {
+        "fs": "DEN",
+        "iata": "DEN",
+        "icao": "KDEN",
+        "faa": "DEN",
+        "name": "Denver International Airport",
+        "street1": "8500 Pena Boulevard",
+        "city": "Denver",
+        "cityCode": "DEN",
+        "stateCode": "CO",
+        "postalCode": "80249-6340",
+        "countryCode": "US",
+        "countryName": "United States",
+        "regionName": "North America",
+        "timeZoneRegionName": "America/Denver",
+        "weatherZone": "COZ040",
+        "localTime": "2014-02-03T11:10:28.742",
+        "utcOffsetHours": -7.0,
+        "latitude": 39.851382,
+        "longitude": -104.673098,
+        "elevationFeet": 5389,
+        "classification": 1,
+        "active": true,
+        "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DEN?codeType=fs",
+        "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DEN?codeType=fs"
+      },
+      {
+        "fs": "PHX",
+        "iata": "PHX",
+        "icao": "KPHX",
+        "faa": "PHX",
+        "name": "Phoenix Sky Harbor International Airport",
+        "street1": "3400 Sky Harbor Boulevard",
+        "city": "Phoenix",
+        "cityCode": "PHX",
+        "stateCode": "AZ",
+        "postalCode": "85034",
+        "countryCode": "US",
+        "countryName": "United States",
+        "regionName": "North America",
+        "timeZoneRegionName": "America/Phoenix",
+        "weatherZone": "AZZ023",
+        "localTime": "2014-02-03T11:10:28.754",
+        "utcOffsetHours": -7.0,
+        "latitude": 33.435036,
+        "longitude": -112.000164,
+        "elevationFeet": 1135,
+        "classification": 1,
+        "active": true,
+        "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PHX?codeType=fs",
+        "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PHX?codeType=fs"
+      },
+      {
+        "fs": "PDX",
+        "iata": "PDX",
+        "icao": "KPDX",
+        "faa": "PDX",
+        "name": "Portland International Airport",
+        "street1": "7000 NE Airport Way",
+        "city": "Portland",
+        "cityCode": "PDX",
+        "stateCode": "OR",
+        "postalCode": "97218",
+        "countryCode": "US",
+        "countryName": "United States",
+        "regionName": "North America",
+        "timeZoneRegionName": "America/Los_Angeles",
+        "weatherZone": "ORZ006",
+        "localTime": "2014-02-03T10:10:28.723",
+        "utcOffsetHours": -8.0,
+        "latitude": 45.588995,
+        "longitude": -122.592901,
+        "elevationFeet": 30,
+        "classification": 1,
+        "active": true,
+        "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/PDX?codeType=fs",
+        "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/PDX?codeType=fs"
+      },
+      {
+        "fs": "LIH",
+        "iata": "LIH",
+        "icao": "PHLI",
+        "faa": "PHLI",
+        "name": "Lihue Airport",
+        "street1": "3901 Mokulele Lap, Box 6",
+        "city": "Kauai Island",
+        "cityCode": "LIH",
+        "stateCode": "HI",
+        "postalCode": "96766",
+        "countryCode": "US",
+        "countryName": "United States",
+        "regionName": "North America",
+        "timeZoneRegionName": "Pacific/Honolulu",
+        "weatherZone": "HIZ001",
+        "localTime": "2014-02-03T08:10:28.750",
+        "utcOffsetHours": -10.0,
+        "latitude": 21.978204,
+        "longitude": -159.349445,
+        "elevationFeet": 153,
+        "classification": 3,
+        "active": true,
+        "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/LIH?codeType=fs",
+        "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/LIH?codeType=fs"
+      },
+      {
+        "fs": "DFW",
+        "iata": "DFW",
+        "icao": "KDFW",
+        "faa": "DFW",
+        "name": "Dallas/Fort Worth International Airport",
+        "street1": "3200 East Airfield Drive",
+        "city": "Dallas",
+        "cityCode": "DFW",
+        "stateCode": "TX",
+        "postalCode": "75261",
+        "countryCode": "US",
+        "countryName": "United States",
+        "regionName": "North America",
+        "timeZoneRegionName": "America/Chicago",
+        "weatherZone": "TXZ119",
+        "localTime": "2014-02-03T12:10:28.746",
+        "utcOffsetHours": -6.0,
+        "latitude": 32.897462,
+        "longitude": -97.036128,
+        "elevationFeet": 603,
+        "classification": 1,
+        "active": true,
+        "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/DFW?codeType=fs",
+        "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/DFW?codeType=fs"
+      },
+      {
+        "fs": "SEA",
+        "iata": "SEA",
+        "icao": "KSEA",
+        "faa": "SEA",
+        "name": "Seattle-Tacoma International Airport",
+        "city": "Seattle",
+        "cityCode": "SEA",
+        "stateCode": "WA",
+        "postalCode": "98158",
+        "countryCode": "US",
+        "countryName": "United States",
+        "regionName": "North America",
+        "timeZoneRegionName": "America/Los_Angeles",
+        "weatherZone": "WAZ001",
+        "localTime": "2014-02-03T10:10:28.756",
+        "utcOffsetHours": -8.0,
+        "latitude": 47.443839,
+        "longitude": -122.301732,
+        "elevationFeet": 429,
+        "classification": 1,
+        "active": true,
+        "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/SEA?codeType=fs",
+        "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/SEA?codeType=fs"
+      },
+      {
+        "fs": "ORD",
+        "iata": "ORD",
+        "icao": "KORD",
+        "faa": "ORD",
+        "name": "O'Hare International Airport",
+        "street1": "10000 West O'Hare",
+        "city": "Chicago",
+        "cityCode": "CHI",
+        "stateCode": "IL",
+        "postalCode": "60666",
+        "countryCode": "US",
+        "countryName": "United States",
+        "regionName": "North America",
+        "timeZoneRegionName": "America/Chicago",
+        "weatherZone": "ILZ014",
+        "localTime": "2014-02-03T12:10:28.752",
+        "utcOffsetHours": -6.0,
+        "latitude": 41.976912,
+        "longitude": -87.904876,
+        "elevationFeet": 668,
+        "classification": 1,
+        "active": true,
+        "delayIndexUrl": "https://api.flightstats.com/flex/delayindex/rest/v1/json/airports/ORD?codeType=fs",
+        "weatherUrl": "https://api.flightstats.com/flex/weather/rest/v1/json/all/ORD?codeType=fs"
+      }
+    ]
+  },
+  "flightStatuses": [
+    {
+      "flightId": 349603233,
+      "carrierFsCode": "WN",
+      "flightNumber": "48",
+      "departureAirportFsCode": "PDX",
+      "arrivalAirportFsCode": "DEN",
+      "departureDate": {
+        "dateLocal": "2014-02-03T10:45:00.000",
+        "dateUtc": "2014-02-03T18:45:00.000Z"
+      },
+      "arrivalDate": {
+        "dateLocal": "2014-02-03T14:05:00.000",
+        "dateUtc": "2014-02-03T21:05:00.000Z"
+      },
+      "status": "S",
+      "operationalTimes": {
+        "flightPlanPlannedDeparture": {
+          "dateLocal": "2014-02-03T10:45:00.000",
+          "dateUtc": "2014-02-03T18:45:00.000Z"
+        },
+        "estimatedRunwayDeparture": {
+          "dateLocal": "2014-02-03T10:45:00.000",
+          "dateUtc": "2014-02-03T18:45:00.000Z"
+        },
+        "estimatedGateArrival": {
+          "dateLocal": "2014-02-03T14:05:00.000",
+          "dateUtc": "2014-02-03T21:05:00.000Z"
+        },
+        "flightPlanPlannedArrival": {
+          "dateLocal": "2014-02-03T13:44:00.000",
+          "dateUtc": "2014-02-03T20:44:00.000Z"
+        },
+        "estimatedRunwayArrival": {
+          "dateLocal": "2014-02-03T13:44:00.000",
+          "dateUtc": "2014-02-03T20:44:00.000Z"
+        }
+      },
+      "flightDurations": {
+        "scheduledAirMinutes": 119
+      }
+    },
+    {
+      "flightId": 349603708,
+      "carrierFsCode": "F9",
+      "flightNumber": "360",
+      "departureAirportFsCode": "PDX",
+      "arrivalAirportFsCode": "DEN",
+      "departureDate": {
+        "dateLocal": "2014-02-03T10:58:00.000",
+        "dateUtc": "2014-02-03T18:58:00.000Z"
+      },
+      "arrivalDate": {
+        "dateLocal": "2014-02-03T14:25:00.000",
+        "dateUtc": "2014-02-03T21:25:00.000Z"
+      },
+      "status": "S",
+      "operationalTimes": {
+        "flightPlanPlannedDeparture": {
+          "dateLocal": "2014-02-03T10:58:00.000",
+          "dateUtc": "2014-02-03T18:58:00.000Z"
+        },
+        "estimatedRunwayDeparture": {
+          "dateLocal": "2014-02-03T10:58:00.000",
+          "dateUtc": "2014-02-03T18:58:00.000Z"
+        },
+        "estimatedGateArrival": {
+          "dateLocal": "2014-02-03T14:25:00.000",
+          "dateUtc": "2014-02-03T21:25:00.000Z"
+        },
+        "flightPlanPlannedArrival": {
+          "dateLocal": "2014-02-03T13:59:00.000",
+          "dateUtc": "2014-02-03T20:59:00.000Z"
+        },
+        "estimatedRunwayArrival": {
+          "dateLocal": "2014-02-03T13:59:00.000",
+          "dateUtc": "2014-02-03T20:59:00.000Z"
+        }
+      },
+      "flightDurations": {
+        "scheduledAirMinutes": 121
+      }
+    },
+    {
+      "flightId": 349602692,
+      "carrierFsCode": "AS",
+      "flightNumber": "658",
+      "departureAirportFsCode": "PDX",
+      "arrivalAirportFsCode": "DFW",
+      "departureDate": {
+        "dateLocal": "2014-02-03T10:24:00.000",
+        "dateUtc": "2014-02-03T18:24:00.000Z"
+      },
+      "arrivalDate": {
+        "dateLocal": "2014-02-03T16:08:00.000",
+        "dateUtc": "2014-02-03T22:08:00.000Z"
+      },
+      "status": "S",
+      "operationalTimes": {
+        "flightPlanPlannedDeparture": {
+          "dateLocal": "2014-02-03T10:24:00.000",
+          "dateUtc": "2014-02-03T18:24:00.000Z"
+        },
+        "estimatedRunwayDeparture": {
+          "dateLocal": "2014-02-03T10:24:00.000",
+          "dateUtc": "2014-02-03T18:24:00.000Z"
+        },
+        "estimatedGateArrival": {
+          "dateLocal": "2014-02-03T16:08:00.000",
+          "dateUtc": "2014-02-03T22:08:00.000Z"
+        },
+        "flightPlanPlannedArrival": {
+          "dateLocal": "2014-02-03T15:28:54.000",
+          "dateUtc": "2014-02-03T21:28:54.000Z"
+        },
+        "estimatedRunwayArrival": {
+          "dateLocal": "2014-02-03T15:28:54.000",
+          "dateUtc": "2014-02-03T21:28:54.000Z"
+        }
+      },
+      "flightDurations": {
+        "scheduledAirMinutes": 184
+      }
+    },
+    {
+      "flightId": 349603247,
+      "carrierFsCode": "OO",
+      "flightNumber": "6518",
+      "departureAirportFsCode": "PDX",
+      "arrivalAirportFsCode": "LAX",
+      "departureDate": {
+        "dateLocal": "2014-02-03T10:38:00.000",
+        "dateUtc": "2014-02-03T18:38:00.000Z"
+      },
+      "arrivalDate": {
+        "dateLocal": "2014-02-03T12:43:00.000",
+        "dateUtc": "2014-02-03T20:43:00.000Z"
+      },
+      "status": "S",
+      "operationalTimes": {
+        "flightPlanPlannedDeparture": {
+          "dateLocal": "2014-02-03T10:38:00.000",
+          "dateUtc": "2014-02-03T18:38:00.000Z"
+        },
+        "estimatedRunwayDeparture": {
+          "dateLocal": "2014-02-03T10:38:00.000",
+          "dateUtc": "2014-02-03T18:38:00.000Z"
+        },
+        "estimatedGateArrival": {
+          "dateLocal": "2014-02-03T12:43:00.000",
+          "dateUtc": "2014-02-03T20:43:00.000Z"
+        },
+        "flightPlanPlannedArrival": {
+          "dateLocal": "2014-02-03T12:11:00.000",
+          "dateUtc": "2014-02-03T20:11:00.000Z"
+        },
+        "estimatedRunwayArrival": {
+          "dateLocal": "2014-02-03T12:11:00.000",
+          "dateUtc": "2014-02-03T20:11:00.000Z"
+        }
+      },
+      "flightDurations": {
+        "scheduledAirMinutes": 93
+      }
+    },
+    {
+      "flightId": 349603005,
+      "carrierFsCode": "AS",
+      "flightNumber": "803",
+      "departureAirportFsCode": "PDX",
+      "arrivalAirportFsCode": "LIH",
+      "departureDate": {
+        "dateLocal": "2014-02-03T10:33:00.000",
+        "dateUtc": "2014-02-03T18:33:00.000Z"
+      },
+      "arrivalDate": {
+        "dateLocal": "2014-02-03T14:17:00.000",
+        "dateUtc": "2014-02-04T00:17:00.000Z"
+      },
+      "status": "S",
+      "operationalTimes": {
+        "flightPlanPlannedDeparture": {
+          "dateLocal": "2014-02-03T10:33:00.000",
+          "dateUtc": "2014-02-03T18:33:00.000Z"
+        },
+        "estimatedRunwayDeparture": {
+          "dateLocal": "2014-02-03T10:33:00.000",
+          "dateUtc": "2014-02-03T18:33:00.000Z"
+        },
+        "estimatedGateArrival": {
+          "dateLocal": "2014-02-03T14:17:00.000",
+          "dateUtc": "2014-02-04T00:17:00.000Z"
+        },
+        "flightPlanPlannedArrival": {
+          "dateLocal": "2014-02-03T14:19:03.000",
+          "dateUtc": "2014-02-04T00:19:03.000Z"
+        },
+        "estimatedRunwayArrival": {
+          "dateLocal": "2014-02-03T14:19:03.000",
+          "dateUtc": "2014-02-04T00:19:03.000Z"
+        }
+      },
+      "flightDurations": {
+        "scheduledAirMinutes": 346
+      }
+    },
+    {
+      "flightId": 349602472,
+      "carrierFsCode": "AS",
+      "flightNumber": "686",
+      "departureAirportFsCode": "PDX",
+      "arrivalAirportFsCode": "ORD",
+      "departureDate": {
+        "dateLocal": "2014-02-03T10:19:00.000",
+        "dateUtc": "2014-02-03T18:19:00.000Z"
+      },
+      "arrivalDate": {
+        "dateLocal": "2014-02-03T16:14:00.000",
+        "dateUtc": "2014-02-03T22:14:00.000Z"
+      },
+      "status": "S",
+      "operationalTimes": {
+        "flightPlanPlannedDeparture": {
+          "dateLocal": "2014-02-03T10:19:00.000",
+          "dateUtc": "2014-02-03T18:19:00.000Z"
+        },
+        "estimatedRunwayDeparture": {
+          "dateLocal": "2014-02-03T10:19:00.000",
+          "dateUtc": "2014-02-03T18:19:00.000Z"
+        },
+        "estimatedGateArrival": {
+          "dateLocal": "2014-02-03T16:14:00.000",
+          "dateUtc": "2014-02-03T22:14:00.000Z"
+        },
+        "flightPlanPlannedArrival": {
+          "dateLocal": "2014-02-03T15:37:44.000",
+          "dateUtc": "2014-02-03T21:37:44.000Z"
+        },
+        "estimatedRunwayArrival": {
+          "dateLocal": "2014-02-03T15:37:44.000",
+          "dateUtc": "2014-02-03T21:37:44.000Z"
+        }
+      },
+      "flightDurations": {
+        "scheduledAirMinutes": 198
+      }
+    },
+    {
+      "flightId": 349603232,
+      "carrierFsCode": "AS",
+      "flightNumber": "640",
+      "departureAirportFsCode": "PDX",
+      "arrivalAirportFsCode": "PHX",
+      "departureDate": {
+        "dateLocal": "2014-02-03T10:38:00.000",
+        "dateUtc": "2014-02-03T18:38:00.000Z"
+      },
+      "arrivalDate": {
+        "dateLocal": "2014-02-03T14:09:00.000",
+        "dateUtc": "2014-02-03T21:09:00.000Z"
+      },
+      "status": "S",
+      "operationalTimes": {
+        "flightPlanPlannedDeparture": {
+          "dateLocal": "2014-02-03T10:38:00.000",
+          "dateUtc": "2014-02-03T18:38:00.000Z"
+        },
+        "estimatedRunwayDeparture": {
+          "dateLocal": "2014-02-03T10:38:00.000",
+          "dateUtc": "2014-02-03T18:38:00.000Z"
+        },
+        "estimatedGateArrival": {
+          "dateLocal": "2014-02-03T14:09:00.000",
+          "dateUtc": "2014-02-03T21:09:00.000Z"
+        },
+        "flightPlanPlannedArrival": {
+          "dateLocal": "2014-02-03T13:50:41.000",
+          "dateUtc": "2014-02-03T20:50:41.000Z"
+        },
+        "estimatedRunwayArrival": {
+          "dateLocal": "2014-02-03T13:50:41.000",
+          "dateUtc": "2014-02-03T20:50:41.000Z"
+        }
+      },
+      "flightDurations": {
+        "scheduledAirMinutes": 132
+      }
+    },
+    {
+      "flightId": 349603171,
+      "carrierFsCode": "QX",
+      "flightNumber": "2014",
+      "departureAirportFsCode": "PDX",
+      "arrivalAirportFsCode": "SEA",
+      "departureDate": {
+        "dateLocal": "2014-02-03T10:35:00.000",
+        "dateUtc": "2014-02-03T18:35:00.000Z"
+      },
+      "arrivalDate": {
+        "dateLocal": "2014-02-03T11:15:00.000",
+        "dateUtc": "2014-02-03T19:15:00.000Z"
+      },
+      "status": "S",
+      "operationalTimes": {
+        "flightPlanPlannedDeparture": {
+          "dateLocal": "2014-02-03T10:35:00.000",
+          "dateUtc": "2014-02-03T18:35:00.000Z"
+        },
+        "estimatedRunwayDeparture": {
+          "dateLocal": "2014-02-03T10:35:00.000",
+          "dateUtc": "2014-02-03T18:35:00.000Z"
+        },
+        "estimatedGateArrival": {
+          "dateLocal": "2014-02-03T11:15:00.000",
+          "dateUtc": "2014-02-03T19:15:00.000Z"
+        },
+        "flightPlanPlannedArrival": {
+          "dateLocal": "2014-02-03T11:04:06.000",
+          "dateUtc": "2014-02-03T19:04:06.000Z"
+        },
+        "estimatedRunwayArrival": {
+          "dateLocal": "2014-02-03T11:04:06.000",
+          "dateUtc": "2014-02-03T19:04:06.000Z"
+        }
+      },
+      "flightDurations": {
+        "scheduledAirMinutes": 29
+      }
+    },
+    {
+      "flightId": 349603245,
+      "carrierFsCode": "OO",
+      "flightNumber": "5397",
+      "departureAirportFsCode": "PDX",
+      "arrivalAirportFsCode": "SEA",
+      "departureDate": {
+        "dateLocal": "2014-02-03T10:41:00.000",
+        "dateUtc": "2014-02-03T18:41:00.000Z"
+      },
+      "arrivalDate": {
+        "dateLocal": "2014-02-03T11:15:00.000",
+        "dateUtc": "2014-02-03T19:15:00.000Z"
+      },
+      "status": "S",
+      "operationalTimes": {
+        "flightPlanPlannedDeparture": {
+          "dateLocal": "2014-02-03T10:41:00.000",
+          "dateUtc": "2014-02-03T18:41:00.000Z"
+        },
+        "estimatedRunwayDeparture": {
+          "dateLocal": "2014-02-03T10:41:00.000",
+          "dateUtc": "2014-02-03T18:41:00.000Z"
+        },
+        "estimatedGateArrival": {
+          "dateLocal": "2014-02-03T11:15:00.000",
+          "dateUtc": "2014-02-03T19:15:00.000Z"
+        },
+        "flightPlanPlannedArrival": {
+          "dateLocal": "2014-02-03T11:13:00.000",
+          "dateUtc": "2014-02-03T19:13:00.000Z"
+        },
+        "estimatedRunwayArrival": {
+          "dateLocal": "2014-02-03T11:13:00.000",
+          "dateUtc": "2014-02-03T19:13:00.000Z"
+        }
+      },
+      "flightDurations": {
+        "scheduledAirMinutes": 32
+      }
+    },
+    {
+      "flightId": 349602250,
+      "carrierFsCode": "OO",
+      "flightNumber": "5243",
+      "departureAirportFsCode": "PDX",
+      "arrivalAirportFsCode": "SFO",
+      "departureDate": {
+        "dateLocal": "2014-02-03T10:14:00.000",
+        "dateUtc": "2014-02-03T18:14:00.000Z"
+      },
+      "arrivalDate": {
+        "dateLocal": "2014-02-03T11:42:00.000",
+        "dateUtc": "2014-02-03T19:42:00.000Z"
+      },
+      "status": "S",
+      "operationalTimes": {
+        "flightPlanPlannedDeparture": {
+          "dateLocal": "2014-02-03T10:14:00.000",
+          "dateUtc": "2014-02-03T18:14:00.000Z"
+        },
+        "estimatedRunwayDeparture": {
+          "dateLocal": "2014-02-03T10:14:00.000",
+          "dateUtc": "2014-02-03T18:14:00.000Z"
+        },
+        "estimatedGateArrival": {
+          "dateLocal": "2014-02-03T11:42:00.000",
+          "dateUtc": "2014-02-03T19:42:00.000Z"
+        },
+        "flightPlanPlannedArrival": {
+          "dateLocal": "2014-02-03T11:23:00.000",
+          "dateUtc": "2014-02-03T19:23:00.000Z"
+        },
+        "estimatedRunwayArrival": {
+          "dateLocal": "2014-02-03T11:23:00.000",
+          "dateUtc": "2014-02-03T19:23:00.000Z"
+        }
+      },
+      "flightDurations": {
+        "scheduledAirMinutes": 69
+      }
+    }
+  ]
+}
